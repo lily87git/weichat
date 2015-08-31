@@ -14,6 +14,7 @@
 		18DD66EE1B93E07B006CDD77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DD66ED1B93E07B006CDD77 /* Images.xcassets */; };
 		18DD66F11B93E07B006CDD77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DD66EF1B93E07B006CDD77 /* LaunchScreen.xib */; };
 		18DD66FD1B93E07B006CDD77 /* weichatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DD66FC1B93E07B006CDD77 /* weichatTests.m */; };
+		18DD67081B93E0BF006CDD77 /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DD67071B93E0BF006CDD77 /* person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		18DD66F61B93E07B006CDD77 /* weichatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weichatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DD66FB1B93E07B006CDD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18DD66FC1B93E07B006CDD77 /* weichatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weichatTests.m; sourceTree = "<group>"; };
+		18DD67061B93E0BF006CDD77 /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = person.h; path = ../person.h; sourceTree = "<group>"; };
+		18DD67071B93E0BF006CDD77 /* person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = person.m; path = ../person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		18DD66DF1B93E07B006CDD77 /* weichat */ = {
 			isa = PBXGroup;
 			children = (
+				18DD67061B93E0BF006CDD77 /* person.h */,
+				18DD67071B93E0BF006CDD77 /* person.m */,
 				18DD66E41B93E07B006CDD77 /* AppDelegate.h */,
 				18DD66E51B93E07B006CDD77 /* AppDelegate.m */,
 				18DD66E71B93E07B006CDD77 /* ViewController.h */,
@@ -221,6 +226,7 @@
 			files = (
 				18DD66E91B93E07B006CDD77 /* ViewController.m in Sources */,
 				18DD66E61B93E07B006CDD77 /* AppDelegate.m in Sources */,
+				18DD67081B93E0BF006CDD77 /* person.m in Sources */,
 				18DD66E31B93E07B006CDD77 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
